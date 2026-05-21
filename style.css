@@ -13,6 +13,7 @@
     --accent-dim: rgba(200,169,110,0.3);
     --red: #8b1a1a;
     --mono: 'DM Mono', monospace;
+    --body: 'Sora', sans-serif;
     --display: 'Bebas Neue', sans-serif;
     --serif: 'Cormorant Garamond', serif;
   }
@@ -24,10 +25,10 @@
   body {
     background: var(--black);
     color: var(--white);
-    font-family: var(--mono);
+    font-family: var(--body);
     font-weight: 300;
-    font-size: 13px;
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.75;
     overflow-x: hidden;
     cursor: crosshair;
   }
@@ -1325,3 +1326,21 @@
     .work-grid-section { padding: 60px 24px; }
     .work-hero-video { height: 280px; }
   }
+
+  /* Ziga dev grid — responsive */
+  .ziga-dev-grid { grid-template-columns: repeat(5,1fr); }
+  @media (max-width: 900px) {
+    .ziga-dev-grid { grid-template-columns: repeat(2,1fr); gap: 2px; }
+    .ziga-dev-grid > div:last-child { grid-column: 1 / -1; }
+  }
+
+  /* Sora body — paragraph and list elements */
+  p, li, .faq-a, .manifesto-block p, .shinjitsu-card p,
+  .process-step p, .timeline-body, .case-body,
+  .stat-note, .brief-field input, .brief-field textarea,
+  .brief-field select { font-family: var(--body); }
+
+  /* Keep mono for labels, tags, nav, captions */
+  .section-label, .card-idx, .timeline-era, .case-label,
+  .metric .m-label, .svc-tag, .foot-copy, .foot-powered,
+  nav, .nav-link, cite { font-family: var(--mono); }
