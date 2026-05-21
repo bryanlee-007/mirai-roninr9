@@ -1344,3 +1344,33 @@
   .section-label, .card-idx, .timeline-era, .case-label,
   .metric .m-label, .svc-tag, .foot-copy, .foot-powered,
   nav, .nav-link, cite { font-family: var(--mono); }
+
+  /* Ziga voice component */
+  .ziga-voice {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 24px 0 32px;
+    padding: 16px 20px;
+    border-left: 2px solid var(--accent);
+    background: rgba(200,169,110,0.04);
+    max-width: 680px;
+  }
+  .ziga-tag {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    color: var(--accent);
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-top: 3px;
+    flex-shrink: 0;
+  }
+  .ziga-line {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 15px;
+    color: var(--white-dim);
+    line-height: 1.75;
+    margin: 0;
+  }
