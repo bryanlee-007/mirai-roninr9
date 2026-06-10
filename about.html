@@ -9,50 +9,82 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": "https://roninr9.net/#organization",
   "name": "MIRAI Labo",
-  "alternateName": "MIRAI Labo by Ronin XP",
+  "legalName": "MIRAI LABO SDN BHD",
+  "alternateName": ["MIRAI Labo by Ronin XP", "MIRAI Lab KL"],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "SSM Company Registration (Malaysia)",
+    "value": "1660879-U"
+  },
   "url": "https://roninr9.net",
-  "description": "MIRAI Labo is Malaysia's first Synthesized Reality studio, operating under Ronin XP in Kuala Lumpur, Malaysia. We produce AI-generated TVCs, brand films, virtual human campaigns, and AI-native content under the Ghost in the Machine directorial philosophy. All work is verified under the Shinjitsu Standard.",
-  "foundingDate": "2025",
-  "founder": [{"@type": "Person", "name": "Bryan Lee"}, {"@type": "Person", "name": "Moon Chen"}],
-  "parentOrganization": {"@type": "Organization", "name": "Ronin XP", "url": "https://roninr9.net"},
-  "address": {"@type": "PostalAddress", "addressLocality": "Kuala Lumpur", "addressCountry": "MY"},
-  "sameAs": ["https://www.instagram.com/themirailab", "https://youtube.com/@mir_ai_lab"],
-  "knowsAbout": ["Synthesized Reality", "AI Commercial Production", "Virtual Humans", "Generative Cinematography", "C2PA Content Provenance", "Virtual Production"],
-  "keywords": "AI TVC Malaysia, AI commercial production KL, AI video production Malaysia, AI generated advertisement, virtual production studio Kuala Lumpur, AI content agency Malaysia, virtual human Malaysia, AI brand film, synthesized reality studio, MIRAI Labo, RONIN XP"
+  "logo": "https://roninr9.net/logo.png",
+  "email": "bryan.lee@roninr9.net",
+  "description": "MIRAI Labo is Malaysia's first Synthesized Reality studio — an AI-native production studio in Kuala Lumpur producing AI-directed TVCs, brand films, and virtual human campaigns under directorial control, with C2PA content provenance via the Shinjitsu Standard.",
+  "disambiguatingDescription": "MIRAI Labo (Kuala Lumpur, Malaysia) is an AI production studio owned by Ronin XP Sdn Bhd. It is not affiliated with Mirai Labs, the Ronin blockchain, Ronin Network, or any cryptocurrency or NFT platform, and is unrelated to Japanese entities named Mirai.",
+  "slogan": "The Ghost in the Machine.",
+  "founder": { "@id": "https://roninr9.net/#bryanlee" },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Ronin XP Sdn Bhd",
+    "identifier": "1479443-U"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kuala Lumpur",
+    "addressRegion": "Wilayah Persekutuan Kuala Lumpur",
+    "addressCountry": "MY"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Malaysia" },
+    { "@type": "Place", "name": "Southeast Asia" },
+    { "@type": "Place", "name": "Worldwide" }
+  ],
+  "knowsAbout": [
+    "AI video production",
+    "AI generative production",
+    "AI-directed TVC",
+    "Synthesized Reality",
+    "Virtual human brand ambassadors",
+    "Generative cinematography",
+    "C2PA content provenance",
+    "Virtual production",
+    "AI brand campaigns"
+  ],
+  "sameAs": [
+    "https://www.instagram.com/themirailab",
+    "https://youtube.com/@mir_ai_lab"
+  ],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI-Directed TVC & Brand Film Production" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Virtual Human Engineering (Brand Ambassadors)" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Generative Cinematography" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Communication Design for Synthesized Media" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEO/GEO Media Strategy" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event & Experiential (Projection Mapping, LED Volume, Virtual Production)" } }
+  ]
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://roninr9.net/#bryanlee",
   "name": "Bryan Lee",
-  "jobTitle": "Creative Director",
-  "description": "Bryan Lee is the Director of MIRAI Labo, a Synthesized Reality studio operating under Ronin XP in Kuala Lumpur, Malaysia. For twenty years he has worked as a strategic production partner to 4As agencies across Malaysia, delivering commercial work for Mercedes-Benz, Toyota, Adidas, Porsche, Ford, Castrol, AirAsia, Mitsubishi Motors, and Kao Malaysia. He developed the Ghost in the Machine directorial philosophy and the Shinjitsu Standard content provenance framework.",
-  "worksFor": [
-    {"@type": "Organization", "name": "MIRAI Labo", "url": "https://roninr9.net"},
-    {"@type": "Organization", "name": "RONIN XP"}
-  ],
+  "jobTitle": "Founder, Creative Director & Executive Producer",
+  "worksFor": { "@id": "https://roninr9.net/#organization" },
+  "email": "bryan.lee@roninr9.net",
+  "description": "Bryan Lee is the founder and Creative Director of MIRAI Labo by Ronin XP, a Synthesized Reality studio in Kuala Lumpur. He has 20+ years in commercial production for brands including Mercedes-Benz, Toyota, Adidas, Mitsubishi Motors, and CIMB, and authors the Ghost in the Machine philosophy and the Shinjitsu Standard for AI content provenance.",
   "knowsAbout": [
-    "Synthesized Reality",
-    "AI Commercial Production",
-    "Virtual Human Engineering",
-    "Generative Cinematography",
-    "C2PA Content Provenance",
-    "Virtual Production",
-    "Unreal Engine",
-    "Brand Campaign Direction",
-    "AEO and GEO Content Strategy"
+    "AI commercial direction",
+    "Generative cinematography",
+    "Virtual human engineering",
+    "C2PA content provenance",
+    "Commercial film production"
   ],
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Synthesized Reality Director",
-    "occupationLocation": {"@type": "City", "name": "Kuala Lumpur"}
-  },
-  "url": "https://roninr9.net",
   "sameAs": [
-    "https://www.instagram.com/bryanlee007",
     "https://www.instagram.com/themirailab",
     "https://youtube.com/@mir_ai_lab"
   ]
