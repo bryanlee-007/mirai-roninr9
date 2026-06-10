@@ -9,50 +9,82 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": "https://roninr9.net/#organization",
   "name": "MIRAI Labo",
-  "alternateName": "MIRAI Labo by Ronin XP",
+  "legalName": "MIRAI LABO SDN BHD",
+  "alternateName": ["MIRAI Labo by Ronin XP", "MIRAI Lab KL"],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "SSM Company Registration (Malaysia)",
+    "value": "1660879-U"
+  },
   "url": "https://roninr9.net",
-  "description": "MIRAI Labo is Malaysia's first Synthesized Reality studio, operating under Ronin XP in Kuala Lumpur, Malaysia. We produce AI-generated TVCs, brand films, virtual human campaigns, and AI-native content under the Ghost in the Machine directorial philosophy. All work is verified under the Shinjitsu Standard.",
-  "foundingDate": "2025",
-  "founder": [{"@type": "Person", "name": "Bryan Lee"}, {"@type": "Person", "name": "Moon Chen"}],
-  "parentOrganization": {"@type": "Organization", "name": "Ronin XP", "url": "https://roninr9.net"},
-  "address": {"@type": "PostalAddress", "addressLocality": "Kuala Lumpur", "addressCountry": "MY"},
-  "sameAs": ["https://www.instagram.com/themirailab", "https://youtube.com/@mir_ai_lab"],
-  "knowsAbout": ["Synthesized Reality", "AI Commercial Production", "Virtual Humans", "Generative Cinematography", "C2PA Content Provenance", "Virtual Production"],
-  "keywords": "AI TVC Malaysia, AI commercial production KL, AI video production Malaysia, AI generated advertisement, virtual production studio Kuala Lumpur, AI content agency Malaysia, virtual human Malaysia, AI brand film, synthesized reality studio, MIRAI Labo, RONIN XP"
+  "logo": "https://roninr9.net/logo.png",
+  "email": "bryan.lee@roninr9.net",
+  "description": "MIRAI Labo is Malaysia's first Synthesized Reality studio — an AI-native production studio in Kuala Lumpur producing AI-directed TVCs, brand films, and virtual human campaigns under directorial control, with C2PA content provenance via the Shinjitsu Standard.",
+  "disambiguatingDescription": "MIRAI Labo (Kuala Lumpur, Malaysia) is an AI production studio owned by Ronin XP Sdn Bhd. It is not affiliated with Mirai Labs, the Ronin blockchain, Ronin Network, or any cryptocurrency or NFT platform, and is unrelated to Japanese entities named Mirai.",
+  "slogan": "The Ghost in the Machine.",
+  "founder": { "@id": "https://roninr9.net/#bryanlee" },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Ronin XP Sdn Bhd",
+    "identifier": "1479443-U"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kuala Lumpur",
+    "addressRegion": "Wilayah Persekutuan Kuala Lumpur",
+    "addressCountry": "MY"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Malaysia" },
+    { "@type": "Place", "name": "Southeast Asia" },
+    { "@type": "Place", "name": "Worldwide" }
+  ],
+  "knowsAbout": [
+    "AI video production",
+    "AI generative production",
+    "AI-directed TVC",
+    "Synthesized Reality",
+    "Virtual human brand ambassadors",
+    "Generative cinematography",
+    "C2PA content provenance",
+    "Virtual production",
+    "AI brand campaigns"
+  ],
+  "sameAs": [
+    "https://www.instagram.com/themirailab",
+    "https://youtube.com/@mir_ai_lab"
+  ],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI-Directed TVC & Brand Film Production" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Virtual Human Engineering (Brand Ambassadors)" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Generative Cinematography" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Communication Design for Synthesized Media" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEO/GEO Media Strategy" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event & Experiential (Projection Mapping, LED Volume, Virtual Production)" } }
+  ]
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://roninr9.net/#bryanlee",
   "name": "Bryan Lee",
-  "jobTitle": "Director",
-  "description": "Bryan Lee is the Director of MIRAI Labo, a Synthesized Reality studio operating under Ronin XP in Kuala Lumpur, Malaysia. For twenty years he has worked as a strategic production partner to 4As agencies across Malaysia, delivering commercial work for Mercedes-Benz, Toyota, Adidas, Porsche, Ford, Castrol, AirAsia, Mitsubishi Motors, and Kao Malaysia. He developed the Ghost in the Machine directorial philosophy and the Shinjitsu Standard content provenance framework.",
-  "worksFor": [
-    {"@type": "Organization", "name": "MIRAI Labo", "url": "https://roninr9.net"},
-    {"@type": "Organization", "name": "RONIN XP"}
-  ],
+  "jobTitle": "Founder, Creative Director & Executive Producer",
+  "worksFor": { "@id": "https://roninr9.net/#organization" },
+  "email": "bryan.lee@roninr9.net",
+  "description": "Bryan Lee is the founder and Creative Director of MIRAI Labo by Ronin XP, a Synthesized Reality studio in Kuala Lumpur. He has 20+ years in commercial production for brands including Mercedes-Benz, Toyota, Adidas, Mitsubishi Motors, and CIMB, and authors the Ghost in the Machine philosophy and the Shinjitsu Standard for AI content provenance.",
   "knowsAbout": [
-    "Synthesized Reality",
-    "AI Commercial Production",
-    "Virtual Human Engineering",
-    "Generative Cinematography",
-    "C2PA Content Provenance",
-    "Virtual Production",
-    "Unreal Engine",
-    "Brand Campaign Direction",
-    "AEO and GEO Content Strategy"
+    "AI commercial direction",
+    "Generative cinematography",
+    "Virtual human engineering",
+    "C2PA content provenance",
+    "Commercial film production"
   ],
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Synthesized Reality Director",
-    "occupationLocation": {"@type": "City", "name": "Kuala Lumpur"}
-  },
-  "url": "https://roninr9.net",
   "sameAs": [
-    "https://www.instagram.com/bryanlee007",
     "https://www.instagram.com/themirailab",
     "https://youtube.com/@mir_ai_lab"
   ]
@@ -117,6 +149,98 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PW728JTM');</script>
 <!-- End Google Tag Manager -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Sketch Is the Anchor",
+    "datePublished": "2026-05-01",
+    "author": { "@id": "https://roninr9.net/#bryanlee" },
+    "publisher": { "@id": "https://roninr9.net/#organization" },
+    "url": "https://roninr9.net/log#entry-a008",
+    "about": ["AI animation pipeline", "Stylised CGI production", "Generative cinematography", "Virtual human engineering"],
+    "inLanguage": "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What A Creative Ecosystem Built For The AI Era Actually Looks Like",
+    "datePublished": "2026-05-01",
+    "author": { "@id": "https://roninr9.net/#bryanlee" },
+    "publisher": { "@id": "https://roninr9.net/#organization" },
+    "url": "https://roninr9.net/log#entry-a007",
+    "about": ["AI creative ecosystem", "MIRAI Labo methodology", "Synthesized Reality"],
+    "inLanguage": "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "12,000 Content Per Second",
+    "datePublished": "2026-05-01",
+    "author": { "@id": "https://roninr9.net/#bryanlee" },
+    "publisher": { "@id": "https://roninr9.net/#organization" },
+    "url": "https://roninr9.net/log#entry-a006",
+    "about": ["Brand intelligence", "AI content volume", "Synthesized Reality"],
+    "inLanguage": "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Ghost in the Machine",
+    "datePublished": "2026-04-01",
+    "author": { "@id": "https://roninr9.net/#bryanlee" },
+    "publisher": { "@id": "https://roninr9.net/#organization" },
+    "url": "https://roninr9.net/log#entry-a001",
+    "about": ["Ghost in the Machine philosophy", "AI commercial direction", "Synthesized Reality"],
+    "inLanguage": "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "On Building the Future Before It Builds You",
+    "datePublished": "2026-04-01",
+    "author": { "@id": "https://roninr9.net/#bryanlee" },
+    "publisher": { "@id": "https://roninr9.net/#organization" },
+    "url": "https://roninr9.net/log#entry-a002",
+    "about": ["AI production strategy", "Synthesized Reality", "MIRAI Labo"],
+    "inLanguage": "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Everyone Read the Unilever Headline Wrong. Including Most of the Marketing Industry.",
+    "datePublished": "2026-04-01",
+    "author": { "@id": "https://roninr9.net/#bryanlee" },
+    "publisher": { "@id": "https://roninr9.net/#organization" },
+    "url": "https://roninr9.net/log#entry-a005",
+    "about": ["Marketing industry analysis", "AI content strategy", "Brand production"],
+    "inLanguage": "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "We Spent an Afternoon Trying to Implement C2PA Properly. Here Is What We Found.",
+    "datePublished": "2026-04-10",
+    "author": { "@id": "https://roninr9.net/#bryanlee" },
+    "publisher": { "@id": "https://roninr9.net/#organization" },
+    "url": "https://roninr9.net/log#entry-a004",
+    "about": ["C2PA", "Content provenance", "AI content verification"],
+    "inLanguage": "en"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Your Audience Has Stopped Believing What They See. A Hashtag Won't Fix That.",
+    "datePublished": "2026-04-01",
+    "author": { "@id": "https://roninr9.net/#bryanlee" },
+    "publisher": { "@id": "https://roninr9.net/#organization" },
+    "url": "https://roninr9.net/log#entry-a003",
+    "about": ["AI content trust", "C2PA", "Shinjitsu Standard", "Brand content verification"],
+    "inLanguage": "en"
+  }
+]
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -194,7 +318,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div id="entry-a008" style="margin-bottom:120px;padding-bottom:80px;border-bottom:1px solid var(--border);">
         <div style="font-size:9px;letter-spacing:0.25em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;">R&amp;D &middot; May 2026</div>
         <h2 style="font-family:var(--display);font-size:clamp(24px,4vw,56px);line-height:1.05;letter-spacing:0.02em;margin-bottom:40px;max-width:760px;">The Sketch Is the Anchor</h2>
-        <div id="log-a008" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"></div>
+        <div id="log-a008" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"><p>For the past six months the focus has been on photorealistic cinematic production &mdash; perfecting character consistency, shot composition, and prop integration. We made significant progress. The Soul ID pipeline is solid. The Shinjitsu Standard gives us provenance. The photorealistic work is at a level I'm confident in.</p>
+<p>Today I decided to move into new territory. Animation and stylised CGI character production.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">THE PROBLEM WE WALKED INTO</h3>
+<p>The assumption going in was that our existing prompting logic &mdash; the layered structure we built for photorealistic work &mdash; would translate across to CGI character generation with some modifications. It doesn't. Not cleanly.</p>
+<p>The first test outputs were acceptable at a surface level but flat. The characters read as CGI but lacked the stylised proportion and character design language that makes a CGI character feel intentional rather than generated. We were producing something that looked like a render but not a character.</p>
+<p>So we started fine tuning. Facial description, body proportion, render engine variants &mdash; Octane, V-Ray, Blender Cycles. We built out the full 10-layer CGI prompt structure and documented it in MIRAI_CGI_Character_Pipeline_v1_0.md. The structure is sound. The problem was something else.</p>
+<p>We spent the morning trying to push Ziga &mdash; our AI-native virtual human &mdash; into a stylised CGI direction. MAPPA anime facial proportions, hyper-elongated fashion-illustration body, small head, long legs. Every iteration fought us back toward a realistic human. The model kept defaulting. At one point she looked like a drug addict. At another point a goldfish. We cracked the facial description eventually &mdash; the key was referencing the flat planar geometry of East Asian facial structure without naming ethnicity, letting the geometry descriptors do the work. But the body proportion was a different problem entirely.</p>
+<p>The 1-3-6 ratio block helped. Waist width anchored to head width helped. Explicit negative prompts blocking realistic proportions helped. But it was still a fight every generation.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">THE BREAKTHROUGH</h3>
+<p>I stepped back and went to first principles.</p>
+<p>The question I asked: what if the proportion problem isn't a prompt problem at all?</p>
+<p>I downloaded a 2D character sketch &mdash; flat illustration, the kind a concept artist would draw &mdash; and fed it to Nano Banana Pro with a single line instruction to render it in Octane style. One pass. The output was exactly the sketch, rendered in full 3D CGI. Proportions intact. Character geometry intact. The model didn't interpret anything. It executed a material pass on geometry that already existed.</p>
+<p>I tested it across multiple sketches. Same result every time. One instruction. No proportion drift. No fights.</p>
+<p>The insight: AI models anchor to what they can see, not what they are told. When you describe proportions in text, the model has to interpret your description against its training data &mdash; which is overwhelmingly real humans. It will always drift toward what it knows. When you show it a sketch, there is nothing to interpret. The geometry is given. The model's only job is to render it.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">THE SECOND DISCOVERY</h3>
+<p>I pushed further. What happens when you combine a sketch with a Soul ID?</p>
+<p>The Soul ID &mdash; our face-locking pipeline &mdash; forces face consistency onto whatever geometry it's given. Feed it a sketch with stylised proportions and it locks Ziga's face onto that geometry. The result is a character that is simultaneously stylised in proportion and consistent in identity. Something that previously required multiple generation passes and constant drift correction collapsed into a single clean output.</p>
+<p>Then animation. We tested free models on the rendered sketch output. It works. The stylised character animates.</p>
+<p>This is where the real implication becomes clear. AI animation models are largely trained on real-world footage. When you ask them to animate something surreal &mdash; hyper-proportion characters, impossible spaces &mdash; they have no reference and collapse back to reality. The sketch breaks this. It gives the animation model a constructed reality to work from. The sketch is the anchor point that the training data doesn't have. It doesn't reach for reality because you've given it something else to hold onto.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">WHAT THIS ACTUALLY MEANS</h3>
+<p>We have just identified a production pipeline for generating stylised animation that doesn't exist in the internet's training data. Which means:</p>
+<ul style="font-family:var(--body);font-size:15px;color:var(--white-dim);line-height:1.9;margin:16px 0 24px;padding-left:24px;display:flex;flex-direction:column;gap:8px;">
+  <li>The model cannot copy it &mdash; it has to construct it from our inputs</li>
+  <li>The illustrator becomes the most important person in the pipeline &mdash; not because they're drawing the final output, but because their sketch defines the geometry the AI executes</li>
+  <li>Prompt engineering for proportion becomes a fallback, not a primary method</li>
+  <li>The pipeline is: sketch &rarr; Octane render &rarr; Soul ID face lock &rarr; animation</li>
+</ul>
+<p>This also validates what the industry has documented but not solved &mdash; stylised animation and realistic animation are fundamentally different problems for AI models. A model optimised for photorealism collapses on stylised geometry. The sketch-to-render method bypasses this entirely by giving the model a constructed reality to execute rather than asking it to invent one from text.</p>
+<p>On the illustrator question &mdash; this needs to be stated accurately. AI is already displacing illustrators at the commodity end: stock imagery, generic advertising, template-based work. Entry and mid-level positions in those categories are under real pressure and that is not reversing. But at the creative geometry level &mdash; character design, proportion, silhouette, the decisions that make a character feel intentional &mdash; illustration is not being replaced. It is becoming the critical input layer that determines everything downstream in a stylised AI production pipeline. Those are two different markets that share a name. The commodity illustration market is shrinking. The character geometry market for AI pipelines is about to grow.</p></div>
         <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--border);">
           <div style="font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--white-dim);">Bryan Lee &middot; Creative Director, MIRAI Labo by Ronin XP</div>
         </div>
@@ -205,7 +361,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div id="entry-a007" style="margin-bottom:120px;padding-bottom:80px;border-bottom:1px solid var(--border);">
         <div style="font-size:9px;letter-spacing:0.25em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;">Methodology &middot; May 2026</div>
         <h2 style="font-family:var(--display);font-size:clamp(20px,3.5vw,48px);line-height:1.05;letter-spacing:0.02em;margin-bottom:40px;max-width:760px;">What A Creative Ecosystem Built For The AI Era Actually Looks Like</h2>
-        <div id="log-a007" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"></div>
+        <div id="log-a007" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"><p>I have been working in advertising and production for over twenty years. In that time I have watched the industry absorb several waves of change &mdash; digital, social, mobile, data. Each time, the conversation followed the same pattern. The technology arrived first. The practice caught up later. The accountability came last, if it came at all.</p>
+<p>AI is moving faster than any of those waves. And the question I keep returning to is not whether AI will change how creative work gets made &mdash; that is already happening, in every agency, at every scale, whether it is acknowledged or not. The question is whether the people inside the work will shape how it gets introduced, or whether they will inherit whatever shape it arrives in.</p>
+<p>I do not have a complete answer to that. What I have is a working one &mdash; a hypothesis I have been developing and testing through MIRAI Labo by Ronin XP, the Synthesized Reality studio I run out of Kuala Lumpur. What follows is an honest account of how I have structured the work, what is functioning, and where I am still figuring it out.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">THE RESEARCH PROBLEM &mdash; AND HOW FAR AI ACTUALLY TAKES US</h3>
+<p>Every agency does research before a campaign begins. Past campaign performance, audience segmentation, category analysis, media consumption data. This is the correct starting point. The problem is not that agencies do research &mdash; it is what research is structurally capable of telling you.</p>
+<p>A database is a record of what worked before. It tells you what resonated with an audience that existed at a specific moment, in a specific media environment, during a cultural context that has since moved. You can extract patterns from it. You can build hypotheses from it. What you cannot do is use it to simulate how a real person will respond to something that does not exist yet.</p>
+<p>The gap between knowing your audience historically and being able to pressure-test an idea against them before spending on production &mdash; that gap is where campaigns fail in ways that research could not predict.</p>
+<p>I start from the same place. Past data, category research, whatever the client brings. I then push further using AI to build audience persona models &mdash; synthetic profiles constructed from behavioral signals, used to stress-test a concept before a single frame is AI-directed. The idea goes in. The persona responds. You observe where the friction is, where the idea lands, where it misses.</p>
+<p>I want to be direct about the limitation here. The persona model draws from past behavioral data. It is a probability model built on what people have done, not a reliable prediction of what they will do next. A real conversation with five people who match the target profile would catch things the simulation misses. I use the simulation because time is almost always the constraint &mdash; it is better than no stress test at all, and I keep refining it. But it is not future-proof, and it would be dishonest to present it as such.</p>
+<p>This stage &mdash; the pre-creation intelligence work, the research, the persona stress test &mdash; is what I call DŌSATSU. It is still in active development. I am learning what it can and cannot do as I apply it.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">PRODUCTION &mdash; WHERE THE WORK ACTUALLY GETS MADE</h3>
+<p>Once the direction is locked, the question becomes how to execute it without losing the intent in the process.</p>
+<p>This is where AI changes the most about how production works, and also where the clearest principle applies. AI generates options. The director decides which options are worth developing, which need correction, and which need to be killed. That decision is not a formality. It is the actual work.</p>
+<p>What makes this harder than it sounds is that the model does not know what is true. It knows what is probable. It produces the most statistically likely version of whatever it is asked for &mdash; which is often technically competent and creatively inert. The practitioner's job is to evaluate what comes back not against a brief on a page but against a felt sense of whether it actually lands as human communication. That is a different skill than prompting. It takes years to develop. It cannot be delegated to another model.</p>
+<p>Every production project I run moves through a structured pipeline &mdash; from scene breakdown and character design through to prompt construction, AI direction, audio, and post. Every decision is made explicitly before execution begins. No generation starts until the direction is confirmed. The pipeline exists to protect the intent established in the research stage from being gradually eroded by the convenience of whatever the model produces most easily.</p>
+<p>This is what I call SHŌSHIN &mdash; the production stage. Of the four stages, this is the one I have built most completely and applied most consistently. It is where the Ghost in the Machine philosophy becomes operational: the machine generates, the director decides, at every step.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">DISTRIBUTION &mdash; THE STAGE I AM STILL LEARNING</h3>
+<p>Making the work well is one problem. Getting it in front of the right person is a different problem, and an honest account has to acknowledge that these are not the same skill.</p>
+<p>The way content is discovered and indexed has shifted significantly. Search engines, AI answer engines, social platforms &mdash; each has its own logic for what it surfaces and why. The goal is not broad reach. It is the right signal reaching the right person &mdash; a brand decision-maker who arrives already understanding what synthesized reality production means and why it matters.</p>
+<p>I approach this through what I call KYŌSEI &mdash; the presence and distribution stage. In practice this means tuning published content for GEO and AEO, writing captions and articles structured to serve how AI engines index entities, maintaining a consistent signal across platforms over time so that when someone searches for AI-directed production, the answer they find is already there.</p>
+<p>I will be honest: this is the stage where I am furthest from having it figured out. Distribution strategy and media planning are disciplines with their own depth, and I am approaching them as a practitioner who understands the signal logic but is not a trained media planner. What I have built is a framework and a set of principles. The execution is improving. It is still in test.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">PROVENANCE &mdash; THE PROBLEM THE INDUSTRY HAS NOT TAKEN SERIOUSLY ENOUGH YET</h3>
+<p>The last stage is the one I feel most certain about in principle, and most aware of its ceiling in practice.</p>
+<p>When synthetic media becomes indistinguishable from recorded reality &mdash; and we are already there in many contexts &mdash; the question of who made something, why, and for whom becomes a brand safety issue, a legal issue, and a trust issue simultaneously. The industry is moving fast enough on AI production that the accountability infrastructure is not keeping pace.</p>
+<p>The answer, as far as I have been able to build it, is provenance embedded in the asset itself. Every piece of content produced through MIRAI Labo by Ronin XP carries C2PA metadata &mdash; cryptographically secure, embedded directly into the file, readable by any platform that recognises the standard. One QR scan returns the full picture: creator, brand owner, production method, timestamp. The asset carries its own accountability.</p>
+<p>This works at the scale I operate at because I control every asset that moves through the pipeline. What it does not solve is the industry-scale problem. For provenance to function as a genuine trust standard rather than a single studio's practice, a unified global registry needs to exist &mdash; a verification infrastructure that any platform, any brand, any regulator can query. That does not exist yet. The C2PA standard is moving in that direction. Until it arrives, what I have is a robust answer to a problem that requires a much larger solution.</p>
+<p>This is what I call SHINJITSU &mdash; the provenance stage. The most concrete solution I have built. The one with the clearest ceiling.</p>
+
+<h3 style="font-family:var(--display);font-size:18px;letter-spacing:0.06em;color:var(--white);margin:40px 0 16px;">WHAT HOLDS ALL FOUR TOGETHER</h3>
+<p>AI has knowledge. Humans have sentiment. These are not the same thing, and the distinction matters more than most conversations about AI in creativity are willing to acknowledge.</p>
+<p>Sentiment is irrational by definition. It does not follow logic or respond to data. It is the thing that makes a piece of communication land in the body before the mind has processed it &mdash; the recognition of something true about a person's experience, arrived at through a medium that had no obligation to get it right. You cannot prompt for that. You can only produce enough options and have someone present who can feel which one is true.</p>
+<p>This is what I call the Ghost in the Machine &mdash; the philosophy that runs underneath all four stages. The machine generates. The human decides. Not as a courtesy, not as a compliance requirement, but because the evaluative function &mdash; the judgment of what is actually true versus what is merely well-executed &mdash; is the job that AI cannot do.</p>
+<p>DŌSATSU stress-tests the idea before it enters production. SHŌSHIN builds the work through a directed pipeline where every decision is explicit. KYŌSEI puts the signal into the world with intention. SHINJITSU seals the truth in the asset itself.</p>
+<p>Three of those four stages are still being refined. One depends on infrastructure that has not been built yet at industry scale. That is not a reason to wait. It is a reason to build honestly, name the gaps clearly, and keep moving.</p>
+<p>The question is not whether AI changes creative practice. It already has. The question is whether the practitioners inside the work will shape how it changes &mdash; or inherit whatever shape it arrives in.</p></div>
         <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--border);">
           <div style="font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--white-dim);">Bryan Lee &middot; Creative Director, MIRAI Labo by Ronin XP</div>
         </div>
@@ -219,7 +413,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span style="font-size:9px;letter-spacing:0.15em;color:var(--white-dim);">May 2026</span>
         </div>
         <h2 style="font-family:var(--display);font-size:clamp(24px,4vw,56px);line-height:1.05;letter-spacing:0.02em;margin-bottom:40px;max-width:760px;">12,000 Content Per Second</h2>
-        <div id="log-a006" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"></div>
+        <div id="log-a006" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"><p>12,732 pieces of content are uploaded to the internet every single second.</p>
+<p>I have been making campaigns and brand films for over twenty years. I have watched the internet grow from a place you visited to a place you live. And when I pulled that number, I sat with it for a long time — because it answered a question that had been bothering me for years. Why is attention getting harder to hold? Why does everything feel like it is working less? Why does a campaign that would have landed five years ago barely register today?</p>
+<p>The answer is not the creative. The answer is the environment the creative has to survive in.</p>
+<p>I remember the exact sound of the internet connecting. That dial-up handshake — the screech, the static, the negotiation — before a single page of text and one low-resolution image crawled onto the screen. It took minutes. Nobody complained. We waited because what was on the other side felt like something worth waiting for. The internet was scarce. Attention was not a war yet. It was just a conversation between a limited number of voices and a limited number of listeners.</p>
+<p>That world is gone. What replaced it is harder to comprehend than most people are willing to admit.</p>
+<p>Every time you refresh a feed, the content available to you has completely changed. Not slightly. Entirely. The same scroll does not exist twice. What you saw three seconds ago is already buried under everything that arrived since. Divided by region, by country, by platform — the number gets smaller but never small enough to process. You are not browsing anymore. You are standing at the edge of a flood trying to pick out a single drop.</p>
+<p>When we have too many options, the mind enters filtration mode. It is not a choice — it is a defence mechanism. The brain cannot evaluate everything, so it stops evaluating deliberately and starts pattern-matching on instinct. First frame does not hold — you have already moved on. You did not decide to move on. The decision happened below conscious thought.</p>
+<p>This is why the hook tactic emerged. Lead with the most arresting moment. Create tension before context. Force the pattern-match to pause. It was a legitimate response to a real problem.</p>
+<p>But the hook tactic was designed for a world where human-produced content was the only competition. That world is also ending.</p>
+<p>Content volume was already growing at 20 to 30 percent annually before generative AI became a production tool. Agentic AI now creates and publishes autonomously at scale. The conservative estimate is a 20 percent minimum increase in daily uploads by the end of this year — and again next year. The moment you upload, you are already competing against content that did not exist when you pressed publish.</p>
+<p>So where does that leave UGC — the strategy the industry landed on as the antidote to polished brand content? If authentic human-made content was supposed to cut through the noise of produced advertising, what happens when AI learns to generate authentic-looking human content at the same volume as everything else? The signal that made UGC trustworthy was that it was genuinely human. That signal is being diluted faster than most brands have noticed.</p>
+<p>The hook tactic cannot win a volume war. UGC cannot win a volume war. Nothing wins a volume war. The internet has too much of everything — including authenticity, or at least the appearance of it.</p>
+<p>What actually happened — and most brands have not fully registered yet — is that the audience quietly stopped trying to filter it themselves.</p>
+<p>They outsourced the decision. To AI.</p>
+<p>The purchase journey used to start with a search engine. Then it started with a social feed. Now it starts with a question asked to an AI — &ldquo;suggest me a suitable shoe for my hiking trip next week.&rdquo; The AI knows the user&rsquo;s history, preferences, and schedule. It filters 26 million stores down to three recommendations. It checks reviews, shipping time, and verified sources. Then it presents the shortlist to the human.</p>
+<p>There are 26 to 28 million active e-commerce stores globally. Fewer than one million generate meaningful revenue. Two thousand new stores open every single day. The buyers did not multiply — only the sellers did. There are roughly 100 online shoppers per store on the entire internet. And now the machine deciding which three stores a person even considers does not respond to media spend, creative loudness, or hook tactics.</p>
+<p>It responds to signal. Consistent, verifiable, structured content it can read, confirm, and trust over time. You cannot buy your way onto that shortlist. You can only earn it.</p>
+<p>This is the question I keep sitting with. If the volume war is unwinnable, the hook tactic has a ceiling, and UGC loses its edge as AI learns to replicate the texture of human content — what actually survives?</p>
+<p>The oldest marketing framework still gives the clearest answer. Attention, Interest, Desire, Action. One hundred and thirty years old. It did not die in the age of AI. But each stage now gets triggered differently.</p>
+<p>Attention is no longer won in the feed alone — it is increasingly won before the human even sees you, in the AI layer that decides what gets recommended. Interest is built by brands that understand what the person is looking for before the person knows themselves. Desire is generated not by campaigns but by experiences worth sharing — the thing someone tells their friend about without being asked to. Action follows when someone watches a person they trust fall in love with something and wants that for themselves.</p>
+<p>None of those four stages require volume. None of them require hooks. All of them require someone making a decision about what a human being actually needs to feel — before any of the execution begins.</p>
+<p>Kevin Roberts called the end state a Lovemark. Not loyalty built from function. Not preference built from price. Unconditional belonging built from love and respect simultaneously. The brands that get there are not the loudest ones. They are the most consistent, the most honest, and the most specific about the human truth they are serving.</p>
+<p>AI can recommend a Lovemark. It cannot create one.</p>
+<p>I have watched the internet go from a single image loading over a phone line to 12,000 pieces of content every second. I have made campaigns inside every era of that shift. And the conclusion I keep returning to is the same one I started with — only now the stakes are higher and the proof is clearer.</p>
+<p><strong>Volume was never the strategy. It was always the enemy dressed as an opportunity.</strong></p>
+<p>The future of marketing is not more content, better hooks, or smarter UGC briefs. It is figuring out what earns trust from a machine that decides what gets seen — and what earns belonging from a human who finally sees it.</p>
+<p>Those are two very different disciplines. Most brands are only working on one of them.</p></div>
         <div style="margin-top:48px;padding:32px;border:1px solid var(--border);background:var(--surface);max-width:680px;">
           <div style="font-family:var(--display);font-size:18px;letter-spacing:0.08em;margin-bottom:4px;color:var(--white);">Bryan Lee</div>
           <div style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:12px;">Creative Director, MIRAI Labo by Ronin XP &middot; Synthesized Reality Studio, Kuala Lumpur</div>
@@ -235,7 +455,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span style="font-size:9px;letter-spacing:0.15em;color:var(--white-dim);">April 2026</span>
         </div>
         <h2 style="font-family:var(--display);font-size:clamp(24px,4vw,56px);line-height:1.05;letter-spacing:0.02em;margin-bottom:40px;max-width:760px;">Ghost in the Machine</h2>
-        <div id="log-a001" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"></div>
+        <div id="log-a001" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"><p>Every production has a ghost.</p>
+<p>It doesn't matter what the tools are. Camera and crew. LED volume. Generative AI. The tools change with the decade. The ghost doesn't. The ghost is the person whose idea started everything — the intelligence that decided what story to tell, why it needed to be told, and what it should feel like when someone watches it. On every production I have ever run, the first question was never which tool. It was who is the ghost on this job.</p>
+<p>Sometimes that ghost is me. Sometimes I hand it to someone else. But the ghost is always someone. A production without one is just a machine running.</p>
+<p>This is not a new idea. Every director who has ever lived has been the ghost in their machine. Kurosawa was the ghost behind every actor, every frame, every weather decision on his sets. The camera didn't know what it was shooting. The crew didn't know why the rain mattered. He knew. That knowledge — held by one person, expressed through every tool in the production — is what separates a film from footage.</p>
+<p>What's new is that the machine has become extraordinarily capable.</p>
+<p>When I started using AI generation seriously, the first thing I noticed was how easy it was to produce something that looked finished. The model generates. The output renders. It is technically competent in ways that would have required significant budget and crew five years ago. And it is completely empty.</p>
+<p>Not broken. Empty.</p>
+<p>A generative AI model has no idea what story it is telling. It has no sense of whether the cut is logical. It cannot feel whether the emotional register of a scene is landing or missing. It generates the most probable version of what it was asked for — which is not the same thing as the right version. The model optimises for coherence. The director optimises for truth.</p>
+<p>What a human director brings to AI production is sense of logic. Not prompting skill. Not technical knowledge of the model. The ability to look at what the machine generated and ask: does this serve the story? Is this cut justified? Does the audience understand what just happened and feel what they were supposed to feel? The model cannot ask these questions. It cannot even understand why they matter.</p>
+<p>There is a deeper consequence that the industry hasn't fully reckoned with yet. When production was difficult and expensive, the process itself filtered out weak storytelling. A director who didn't understand film language still needed a DOP, an editor, a sound designer — collaborators whose craft compensated for gaps in vision. AI removes those filters. The tools are now so capable that anyone can produce something that looks finished. Which means the only thing that separates a director from someone running a model is the depth of their film knowledge — their understanding of story structure, visual language, emotional logic, the precise reason one cut works and another doesn't. AI has made production democratically accessible and simultaneously made genuine directorial knowledge more valuable than it has ever been. The eye matters more now, not less. The craft matters more now, not less. Because when the machine can do everything technically, the only thing left is knowing what to do.</p>
+<p>The practical consequence of this is visible everywhere in AI-generated content right now. The outputs are increasingly capable. The storytelling is increasingly absent. Because storytelling requires a ghost — someone who fixed the story before the first generation ran, who built the styleframe as a contract for what the scene must achieve, who reviewed the output against the intention and decided whether the connection between frame one and frame two was logical or not, and who added the shot that fixed it when it wasn't.</p>
+<p>Remove that person and what remains is a moving poster. Visually competent. Message delivered. Completely disposable. The viewer sees it, receives the information, and moves on. Nothing accumulates. Nothing is remembered. The brand spent money on content that performed its function and left no trace.</p>
+<p>Every generation begins with the story locked. The styleframe is the contract — a single cinematic still that establishes exactly what the scene must achieve before a single video prompt is written. The AI executes against that contract. The director reviews every output against it. The question is always the same: is the ghost still in this frame, or did the machine go somewhere on its own?</p>
+<p>When the machine goes somewhere on its own, we pull it back.</p>
+<p>That discipline — the insistence that every frame serves an intention that existed before the model ran — is what Ghost in the Machine means in practice. It is not a philosophical position. It is a production standard. The ghost is the anchor. The anchor never leaves the scene.</p>
+<p>The only question, on every production, is whether you brought one.</p></div>
         <div style="margin-top:48px;padding:32px;border:1px solid var(--border);background:var(--surface);max-width:680px;">
           <div style="font-family:var(--display);font-size:18px;letter-spacing:0.08em;margin-bottom:4px;color:var(--white);">Bryan Lee</div>
           <div style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:12px;">Director, MIRAI Labo by Ronin XP &middot; Synthesized Reality Studio, Kuala Lumpur</div>
@@ -251,7 +486,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span style="font-size:9px;letter-spacing:0.15em;color:var(--white-dim);">April 2026</span>
         </div>
         <h2 style="font-family:var(--display);font-size:clamp(24px,4vw,56px);line-height:1.05;letter-spacing:0.02em;margin-bottom:40px;max-width:760px;">On Building the Future Before It Builds You</h2>
-        <div id="log-a002" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"></div>
+        <div id="log-a002" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"><p>People have been asking me what I do for twenty years. My answer has always been the same. Designer.</p>
+<p>Not because I am only a designer. Because designer is the closest single word to how I actually think. When a brief arrives, the first question is never what to produce. It is what problem needs solving, who needs to feel it, and what form serves that best. The medium comes last. The solution comes first. I have worked across graphic design, digital, events, film, virtual production, and now synthesized reality — not because I couldn't commit to one lane, but because each of those was simply the best available answer to the problem in front of me at the time.</p>
+<p>That approach has always confused people. In a market that organises itself around job titles and specialisations, someone who moves between disciplines without apology reads as unfocused. What I was actually doing was following the problem wherever it led.</p>
+<p>The events years were the closest I came to pure filmmaking without calling it that. A brand event is a film you walk through — narrative arc, emotional choreography, a beginning, a middle, an end. I was directing. I just didn't have the title. When COVID ended that chapter, I went looking for the next door. Commercial production was already familiar territory but something was always slightly off — the work was competent, occasionally excellent, but constrained in ways I couldn't fully solve with the budgets and timelines available.</p>
+<p>Virtual production opened something. And then AI generation opened everything.</p>
+<p>My first instinct when I saw what generative AI could do was not strategic. It was visceral. This is a tool with no budget ceiling. Every visual limitation I had been working around for twenty years — scale, location, time, the cost of a single perfect frame — collapsed simultaneously. For the first time, the only constraint was the idea.</p>
+<p>But I have watched enough production cycles to know what happens when a powerful tool becomes widely accessible. The tool gets commoditised. The people who only knew how to operate it become expendable. The people who understood what to do with it — who had the eye, the story sense, the accumulated intelligence to direct rather than just generate — those people become more valuable, not less.</p>
+<p>MIRAI Labo, the Ghost in the Machine philosophy, the Shinjitsu Standard, Ziga — none of these arrived as a plan. They arrived as answers to questions I was asking in real time as I tried to understand what this new production ecosystem actually was and what role a director with my background could play in it. MIRAI itself — MIR, world, AI, artificial intelligence — was named around that question. What does the world look like when AI becomes a primary production tool? Who has the answer? Nobody yet. But someone has to start building the framework before the market decides it for everyone.</p>
+<p>The bet I am making with everything I am building is not on AI. AI is the tool. The bet is on authorship. On the argument that when production becomes democratically accessible, the only irreplaceable thing left is the quality of the human intelligence directing it. The eye. The story sense. The discipline to ask whether the frame serves the intention before approving it. The refusal to let the machine go somewhere on its own.</p>
+<p>MIRAI is that decision, made permanent.</p></div>
         <div style="margin-top:48px;padding:32px;border:1px solid var(--border);background:var(--surface);max-width:680px;">
           <div style="font-family:var(--display);font-size:18px;letter-spacing:0.08em;margin-bottom:4px;color:var(--white);">Bryan Lee</div>
           <div style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:12px;">Director, MIRAI Labo by Ronin XP &middot; Synthesized Reality Studio, Kuala Lumpur</div>
@@ -267,7 +511,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span style="font-size:9px;letter-spacing:0.15em;color:var(--white-dim);">April 2026</span>
         </div>
         <h2 style="font-family:var(--display);font-size:clamp(24px,4vw,48px);line-height:1.05;letter-spacing:0.02em;margin-bottom:40px;max-width:760px;">Everyone Read the Unilever Headline Wrong. Including Most of the Marketing Industry.</h2>
-        <div id="log-a005" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"></div>
+        <div id="log-a005" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"><p>When Unilever's new CEO Fernando Fern&#225;ndez announced he was shifting 50% of the company's media budget to social channels and partnering with 300,000 creators worldwide, the marketing industry did what it always does with a dramatic headline. It panicked. Influencer marketing is the future. Advertising is dead. Agencies are finished. The takes came fast and they all missed the point.</p>
+
+<p>I read it differently.</p>
+
+<p>What Fern&#225;ndez actually said at the Consumer Analysts Group of New York was this: "Broadcasting messages from big brands now can become suspicious." He didn't say advertising is dead. He said trust has moved. That is a very different problem — and a much more interesting one.</p>
+
+<p>The old influencer model was already broken before this announcement. Brands hired people with large follower counts to talk about products that had nothing to do with their lives. The reach numbers looked impressive. The conversion numbers told a different story. High exposure, low action. Wrong people, wrong context, wrong game. What Unilever is actually building isn't an influencer army. It's a trust network. Real users of real products. Professionals speaking from genuine expertise in their specific domain. One creator per zip code in India, one per municipality in Brazil — not because the follower count matters, but because local authenticity travels where corporate messaging doesn't.</p>
+
+<p>That's not influencer marketing. That's user-generated credibility at scale. The distinction matters enormously.</p>
+
+<p>And here's what almost nobody is connecting to this story.</p>
+
+<p>GEO — Generative Engine Optimisation — changes the entire purchase journey. When someone asks ChatGPT or Gemini "my hair is oily, which shampoo should I use that won't break the bank," the AI doesn't return a paid listing. It synthesises trusted sources. Reviews, professional recommendations, official brand channels, cited product information. The brand that has built the deepest network of authentic, verifiable, cross-referenced signals gets recommended. The brand that relied on thirty-second broadcast interruptions gets ignored.</p>
+
+<p>What Unilever is doing with 300,000 creators is tuning its GEO signal. More authentic voices citing the brand across more contexts means AI models find more trusted sources when a consumer asks a product question. That's not a social media strategy. That's search infrastructure for the LLM era.</p>
+
+<p><strong>The LLM just became the most important customer any brand has. Because it decides who gets recommended to the actual customer.</strong></p>
+
+<p>Welcome to B2A. Business to AI.</p>
+
+<p>This is where Bryan Lee's work at MIRAI Labo in Kuala Lumpur has always pointed. The Shinjitsu Standard — MIRAI Labo's content provenance framework — exists precisely because the GEO era rewards verified, citable, structured sources. Every piece of work that leaves MIRAI Labo is documented, certified, and registered before it reaches a platform. Not as an ethics exercise. As a competitive signal. AI models are learning to distinguish trusted sources from noise. The brands and studios that built verifiable content infrastructure before this became obvious will be disproportionately surfaced in the next phase of discovery.</p>
+
+<p>The Shinjitsu Standard is MIRAI Labo's answer to the same problem Fern&#225;ndez is trying to solve with 300,000 creators — how do you build a signal strong enough for AI engines to trust you in a world drowning in unverifiable content?</p>
+
+<p>Now here's the part worth sitting with.</p>
+
+<p>Advertising isn't dead. It just moved to a different position in the journey.</p>
+
+<p>The AI filters the sea of noise and surfaces recommendations. The consumer then wants to know who the brand actually is. That's where great visual storytelling — film, content, brand identity — closes the sale. The creative work becomes the conversion layer, not the discovery layer. After the AI recommends, the brand has one moment to confirm that recommendation with something that feels real, specific, and worth trusting.</p>
+
+<p>That moment requires more craft, not less. It requires direction, not generation. It requires a point of view that no prompt can manufacture.</p>
+
+<p>There is also a contradiction sitting inside Fern&#225;ndez's own announcement that nobody is naming. Unilever spent $9 billion on brand and marketing in 2025. The social pivot moves 50% of media budget to creators. The other 50% — still billions of dollars — continues flowing into traditional broad-reach channels. And in the same results call where Fern&#225;ndez declared big brand messaging suspicious, he cited Unilever's 2026 FIFA World Cup sponsorship as a key performance driver.</p>
+
+<p>That's not the death of advertising. That's a rebalancing toward trust signals — with advertising still doing the heavy lifting on reach when the moment demands it.</p>
+
+<p>The industry that reads this as "influencer marketing wins, advertising loses" will optimise for the wrong thing and wonder why the numbers don't move.</p>
+
+<p>The brands that read it correctly will understand that the game is now about building verifiable trust across every layer — creators, content, provenance, brand identity — so that when the AI recommends them, the consumer arrives already halfway convinced.</p>
+
+<p>One question settles this entire argument.</p>
+
+<p><strong>Did you ever ask an AI to recommend a product or compare options before buying?</strong></p>
+
+<p>If yes — you already know which brands win from here.</p></div>
         <div style="margin-top:48px;padding:32px;border:1px solid var(--border);background:var(--surface);max-width:680px;">
           <div style="font-family:var(--display);font-size:18px;letter-spacing:0.08em;margin-bottom:4px;color:var(--white);">Bryan Lee</div>
           <div style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:12px;">Director, MIRAI Labo by Ronin XP &middot; Synthesized Reality Studio, Kuala Lumpur</div>
@@ -283,7 +571,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span style="font-size:9px;letter-spacing:0.15em;color:var(--white-dim);">April 10, 2026 &middot; Kuala Lumpur</span>
         </div>
         <h2 style="font-family:var(--display);font-size:clamp(24px,4vw,48px);line-height:1.05;letter-spacing:0.02em;margin-bottom:40px;max-width:760px;">We Spent an Afternoon Trying to Implement C2PA Properly. Here Is What We Found.</h2>
-        <div id="log-a004" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"></div>
+        <div id="log-a004" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"><p>Adobe, Microsoft, Google, the BBC. Over 6,000 member organisations. Five years of development. The C2PA Content Credentials standard is the most ambitious attempt yet to solve digital provenance — to answer the question of who made what, when, and how. We wanted to implement it properly for MIRAI Labo. What we found is a gap between the promise and the practitioner reality that nobody in the creative industry is talking about honestly.</p><h3>FINDING 01 — Adobe's Implementation Is Built Around Firefly, Not Your Workflow</h3><p>When you export from Adobe Premiere Pro with Content Credentials enabled, the C2PA manifest that gets embedded into your file says one thing: verified by Adobe, made by this LinkedIn profile. That is the entire credential. No per-work fingerprint. No tool chain. No duration. No content-specific assertion beyond the identity of whoever holds that Adobe account.</p><p>Adobe automatically applies Content Credentials to assets where 100% of the pixels are generated with Adobe Firefly. For everything else, the credential is thin. It is attribution dressed as provenance.</p><p>We attempted to manually sign a video export through Premiere's export panel. The embedded manifest recorded: the Adobe account holder's name, a link to a LinkedIn profile, and the date of export. Nothing about the work itself. Nothing that distinguishes this specific file from any other file exported by the same person on the same day.</p><p><strong>Finding:</strong> Adobe's Content Credentials in Premiere, for non-Firefly workflows, is an identity stamp — not a provenance record. It answers 'who exported this' rather than 'what is this, how was it made, and has it been altered.'</p><h3>FINDING 02 — The Re-Save Problem Breaks Every Professional Creative Workflow</h3><p>C2PA works by computing a cryptographic hash of the file's bytes at the moment of signing. Any change to those bytes — any re-encode, any format conversion, any edit — breaks the hash and invalidates the credential.</p><p>Consider how AI film is actually made. A generative clip from Runway comes in as an ingredient. A sequence of Midjourney frames comes in as an ingredient. These are assembled, edited, colour-graded, sound-designed, and exported as a final deliverable. None of the source credentials survive this process.</p><p><em>Content that most needs verifiable provenance — content assembled from multiple AI sources — is precisely the content that C2PA cannot currently protect through any standard workflow.</em></p><p>The RAND Corporation, in a June 2025 analysis, noted that 'the success of C2PA depends on end-to-end compliance by all elements of the ecosystem, but in an open ecosystem this is unrealistic.' We found this to be accurate from the first export.</p><h3>FINDING 03 — Raw Source Metadata Already Exists. C2PA Does Not Solve the Last Mile.</h3><p>For photojournalism and documentary work — where the chain from capture to publication is short and controlled — C2PA is genuinely valuable. But in creative production, raw footage is not the deliverable. It is the ingredient.</p><p><strong>Finding:</strong> C2PA protects the source. It does not protect the work. For any production workflow involving editing, compositing, or multi-source assembly — which is every professional workflow — the source credentials are severed at the first export.</p><h3>FINDING 04 — Platform Distribution Strips Everything Anyway</h3><p>YouTube re-encodes every upload. Instagram recompresses. WhatsApp strips metadata. Saving a credentialed image to an iPhone camera roll destroys the credential.</p><p>LinkedIn and TikTok are currently the only major platforms preserving C2PA metadata on upload — and even then, only for images and only in limited contexts. Content that most needs verified provenance is exactly the content most likely to have its credentials stripped before anyone sees them.</p><h3>FINDING 05 — The Trust Infrastructure for Independent Studios Does Not Exist Yet</h3><p>We built our own signing infrastructure using c2patool — the open-source CLI from the Content Authenticity Initiative — and generated a self-signed certificate registered to MIRAI Labo SDN BHD. The signing worked. The manifest embedded correctly.</p><p>When inspected at contentcredentials.org, the result: <strong>Invalid. Signing credential untrusted.</strong></p><p>A self-signed certificate from an independent studio is not on the C2PA Trust List. The infrastructure for independent creative studios to participate meaningfully in C2PA's trust model does not currently exist at an accessible cost or complexity level.</p><h3>Our Response — We Built the Shinjitsu Standard Because the Work Demanded It</h3><p>We did not build an alternative to C2PA out of frustration. We built it because after stress-testing the full stack we understood precisely what the technology could and could not do. And we designed around its limits.</p><p><strong>Layer 01 — Adobe Content Credentials.</strong> Every master file exported from Premiere carries Adobe CC — a recognisable, timestamped identity signal at the point of delivery.</p><p><strong>Layer 02 — Shinjitsu Certificate.</strong> A per-work PDF certificate for every SHN entry. Contains the full record C2PA cannot hold: director, studio, jurisdiction, SHN number, duration, production date, complete tool chain, creative method, AI disclosure. E-signed via Adobe Acrobat Sign.</p><p><strong>Layer 03 — Shinjitsu Registry.</strong> The complete public catalogue of every work produced by MIRAI Labo, hosted at roninr9.net. Platform-agnostic, survives re-encoding, survives platform upload — because it is not embedded in a file. It exists independently of the work itself.</p><p><em>We moved the provenance claim out of the file — where it is fragile — and into a document and registry system — where it is durable.</em></p><h3>C2PA Is Infrastructure for a Future That Has Not Arrived Yet</h3><p>This is not a dismissal of C2PA. The specification is technically sound. The intent is right. Hardware adoption is real and accelerating. But the gap between where the ecosystem is today and what independent creative studios actually need is significant.</p><p>We spent an afternoon going all the way down. We installed c2patool. We generated certificates. We signed actual files. We hit every wall. And we came out with a clearer understanding of what provenance actually requires than any press release about Content Credentials has given us.</p><p>The Shinjitsu Standard is not a workaround. It is a considered decision made from first principles — built for the workflow that exists, not the ecosystem that is still being assembled.</p><p>Until then: every work. Every SHN. Every certificate. Documented, signed, public, permanent.</p><div style="margin-top:32px;padding:20px 24px;border-left:2px solid var(--accent);background:var(--surface);"><div style="font-size:11px;color:var(--white-dim);line-height:1.8;"><strong style="color:var(--accent);">References</strong><br>C2PA Specification v2.2: spec.c2pa.org<br>RAND Corporation: Overpromising on Digital Provenance and Security — June 2025<br>PetaPixel, June 2025: Thanks to a Disjointed Rollout, C2PA Content Credentials Look Stuck<br>Adobe Content Authenticity: contentauthenticity.org</div></div></div>
         <div style="margin-top:48px;padding:32px;border:1px solid var(--border);background:var(--surface);max-width:680px;">
           <div style="font-family:var(--display);font-size:18px;letter-spacing:0.08em;margin-bottom:4px;color:var(--white);">Bryan Lee</div>
           <div style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:12px;">Director, MIRAI Labo by Ronin XP &middot; Synthesized Reality Studio, Kuala Lumpur</div>
@@ -299,7 +587,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span style="font-size:9px;letter-spacing:0.15em;color:var(--white-dim);">April 2026</span>
         </div>
         <h2 style="font-family:var(--display);font-size:clamp(24px,4vw,48px);line-height:1.05;letter-spacing:0.02em;margin-bottom:40px;max-width:760px;">Your Audience Has Stopped Believing What They See. A Hashtag Won&#8217;t Fix That.</h2>
-        <div id="log-a003" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"></div>
+        <div id="log-a003" style="max-width:680px;font-size:15px;line-height:1.9;color:var(--white-dim);"><p>You remember the Will Smith video.</p><p>Early 2023. An AI-generated clip of him eating spaghetti — grotesque, physically wrong in every frame — circulated as proof that generative AI was a novelty. A joke. The creative industry exhaled collectively and said: not yet. Not ready. Nothing to worry about.</p><p>That confidence aged badly. Not because the clip lied about where the technology was at the time — it was accurate. It lied about how permanent that gap would be. By late 2024 the conversation had stopped being <em>can AI produce anything convincing</em> and shifted to <em>can anyone tell the difference anymore</em>. The answer, increasingly, is no.</p><p>I watched that shift and saw something specific in it. When generative video crossed the quality threshold, the budget ceiling that had always been the invisible wall between an idea and its execution was gone. For a director operating outside a major production house, that is not a small thing. It changes what you can build entirely.</p><p>But democratisation is not a clean gift.</p><p>When the tools became genuinely accessible, the floodgates didn't open just for people who had spent years developing creative judgment. They opened for everyone. Prompt copying became a content strategy. The friction of creation collapsed to near zero. Post anything. Post everything. Visibility became the only metric. Quality became optional.</p><p>Then it got worse.</p><p><strong>This week, LEGO and Iran used the same visual language. On the same day.</strong></p><p>LEGO released a campaign for the 2026 FIFA World Cup featuring Messi, Ronaldo, Mbapp&#233; and Vin&#237;cius Jr. as LEGO minifigures. It went viral immediately. Then questions started. Were the players actually filmed together? Was it AI? The debate was loud enough that Messi posted the video himself with the hashtag: #HonestlyItsNotAI.</p><p>That hashtag is the tell. A brand the size of LEGO, reduced to defending their own content with a hashtag. That is what the trust collapse looks like from the inside of a legitimate campaign.</p><p>Almost simultaneously, AI-generated LEGO-style propaganda videos depicting Donald Trump and Benjamin Netanyahu began flooding social media — produced by an anonymous Iranian group, reshared by state media. The LEGO aesthetic triggers associations with childhood, safety, something harmless. Your brain lowers its guard. The contradiction between the format and the content is exactly what makes it travel.</p><p>Same visual language. Same week. One was a brand campaign. The other was state-level information warfare. Your audience had no mechanism to tell the difference — except a hashtag on one of them.</p><p><strong>The problem is not AI. The problem is accountability.</strong></p><p>What we are calling AI slop is imprecise language that lets the real problem off the hook. The actual problem is the complete collapse of content accountability. No digital stamps. No source verification. No chain of custody. A VPN and a free tool are now sufficient infrastructure to manufacture and distribute fabricated reality at scale — and walk away clean.</p><p>C2PA — the Coalition for Content Provenance and Authenticity — is an open technical standard founded in 2021 by Adobe, Microsoft, BBC, Intel, Arm, and Truepic. Every piece of media carries a cryptographically signed manifest embedded inside the file, recording who made it, when, with what tools, and for what purpose. Think of it as a nutrition label for content. The EU AI Act, coming into effect in August 2026, requires transparency labeling for AI-generated content — C2PA's framework directly satisfies that requirement.</p><p>The gap between where the standard is and where industry practice is — that gap is where the trust collapse lives.</p><p>The Shinjitsu Standard — &#30495;&#23455;, Japanese for truth — is MIRAI Labo's content provenance framework. I built it not because clients required it but because the work required it. Every piece of content produced under the Shinjitsu Standard carries C2PA metadata, QR verification, and the Anti-Slop Guarantee — a commitment that nothing ships without human directorial accountability at every stage.</p><p>The LEGO campaign this week was legitimate work done seriously. It deserved better than having to defend itself with a hashtag. Every brand producing serious content deserves better than that. The tools to build that infrastructure exist right now. The only thing missing is the decision to use them.</p><p>The genie is out of the bottle. The question now is who decides to be accountable before the regulation makes that decision for them.</p><p>We should be the guardrails of our own content. No one else is coming to build them.</p></div>
         <div style="margin-top:48px;padding:32px;border:1px solid var(--border);background:var(--surface);max-width:680px;">
           <div style="font-family:var(--display);font-size:18px;letter-spacing:0.08em;margin-bottom:4px;color:var(--white);">Bryan Lee</div>
           <div style="font-size:11px;color:var(--accent);letter-spacing:0.1em;margin-bottom:12px;">Director, MIRAI Labo by Ronin XP &middot; Synthesized Reality Studio, Kuala Lumpur</div>
