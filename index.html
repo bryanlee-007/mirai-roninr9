@@ -9,16 +9,62 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Ronin XP",
-  "alternateName": "RONIN XP Sdn Bhd",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": "https://roninr9.net/#organization",
+  "name": "MIRAI Labo",
+  "legalName": "MIRAI LABO SDN BHD",
+  "alternateName": ["MIRAI Labo by Ronin XP", "MIRAI Lab KL"],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "SSM Company Registration (Malaysia)",
+    "value": "1660879-U"
+  },
   "url": "https://roninr9.net",
-  "description": "Ronin XP is a Kuala Lumpur-based commercial production company and the parent organisation of MIRAI Labo. Founded by Bryan Lee, Ronin XP has delivered commercial work for Mercedes-Benz, Toyota, Adidas, Porsche, Ford, Castrol, AirAsia, Mitsubishi Motors, and Kao Malaysia across two decades of production.",
-  "foundingDate": "2003",
-  "founder": {"@type": "Person", "name": "Bryan Lee"},
-  "address": {"@type": "PostalAddress", "addressLocality": "Kuala Lumpur", "addressCountry": "MY"},
-  "subOrganization": {"@type": "Organization", "name": "MIRAI Labo", "url": "https://roninr9.net"},
-  "sameAs": ["https://www.instagram.com/themirailab", "https://youtube.com/@mir_ai_lab"]
+  "logo": "https://roninr9.net/logo.png",
+  "email": "bryan.lee@roninr9.net",
+  "description": "MIRAI Labo is Malaysia's first Synthesized Reality studio — an AI-native production studio in Kuala Lumpur producing AI-directed TVCs, brand films, and virtual human campaigns under directorial control, with C2PA content provenance via the Shinjitsu Standard.",
+  "disambiguatingDescription": "MIRAI Labo (Kuala Lumpur, Malaysia) is an AI production studio owned by Ronin XP Sdn Bhd. It is not affiliated with Mirai Labs, the Ronin blockchain, Ronin Network, or any cryptocurrency or NFT platform, and is unrelated to Japanese entities named Mirai.",
+  "slogan": "The Ghost in the Machine.",
+  "founder": { "@id": "https://roninr9.net/#bryanlee" },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Ronin XP Sdn Bhd",
+    "identifier": "1479443-U"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kuala Lumpur",
+    "addressRegion": "Wilayah Persekutuan Kuala Lumpur",
+    "addressCountry": "MY"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Malaysia" },
+    { "@type": "Place", "name": "Southeast Asia" },
+    { "@type": "Place", "name": "Worldwide" }
+  ],
+  "knowsAbout": [
+    "AI video production",
+    "AI generative production",
+    "AI-directed TVC",
+    "Synthesized Reality",
+    "Virtual human brand ambassadors",
+    "Generative cinematography",
+    "C2PA content provenance",
+    "Virtual production",
+    "AI brand campaigns"
+  ],
+  "sameAs": [
+    "https://www.instagram.com/themirailab",
+    "https://youtube.com/@mir_ai_lab"
+  ],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI-Directed TVC & Brand Film Production" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Virtual Human Engineering (Brand Ambassadors)" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Generative Cinematography" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Communication Design for Synthesized Media" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AEO/GEO Media Strategy" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event & Experiential (Projection Mapping, LED Volume, Virtual Production)" } }
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -42,112 +88,47 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": "https://roninr9.net/#faq",
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a synthesized reality studio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A synthesized reality studio combines directorial authorship with AI generation to produce brand-quality visual content. Unlike traditional production houses bound by logistics and physics, or AI tool vendors who simply run prompts, a synthesized reality studio applies human intent, taste, and compositional judgment to every frame. MIRAI Labo pioneered this category."
-      }
+      "name": "Which studio in Malaysia produces AI-generated TVCs and brand films?",
+      "acceptedAnswer": { "@type": "Answer", "text": "MIRAI Labo is Malaysia's first Synthesized Reality studio, based in Kuala Lumpur. We produce AI-directed TVCs, brand films, and virtual human campaigns — delivering cinematic, multi-country productions at 80–90% less than traditional production cost. The savings are structural, not a compromise." }
     },
     {
       "@type": "Question",
-      "name": "How much does AI commercial production cost compared to traditional production?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI-native production at director-grade quality can reduce campaign costs by 80–90% versus traditional production — crew, talent, location, post — without sacrificing brand integrity or creative ambition. The savings are structural, not a compromise."
-      }
+      "name": "How much does AI video production cost in Malaysia versus traditional TVC production?",
+      "acceptedAnswer": { "@type": "Answer", "text": "AI-native production at MIRAI Labo costs 80–90% less than traditional TVC production. A cinematic brand film spanning multiple countries — Bangkok, Hong Kong, Seoul, Kuala Lumpur — with no location shoots, no crew costs, and no talent fees. The budget ceiling that separated ideas from execution no longer exists." }
     },
     {
       "@type": "Question",
-      "name": "What is the Shinjitsu Standard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Shinjitsu Standard (真実, Japanese for 'truth') is MIRAI Labo's proprietary content provenance framework. It integrates C2PA metadata embedding, QR code verification, and an Anti-Slop Guarantee to ensure every synthesized asset is traceable, accountable, and brand-safe. It is also engineered for AEO and GEO discoverability."
-      }
+      "name": "What is a synthesized reality studio and how is it different from a standard production house?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A synthesized reality studio combines directorial authorship with AI generation to produce brand-quality visual content. Unlike a traditional production house — constrained by logistics, locations, and physical crew — or an AI tool vendor running prompts with no creative oversight, a synthesized reality studio applies human taste, intent, and compositional judgment to every generated frame. MIRAI Labo coined and operates this category." }
     },
     {
       "@type": "Question",
-      "name": "What is a virtual human and how can brands use one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A virtual human is a hyper-realistic AI-generated brand ambassador engineered for total consistency, zero scandal risk, and unlimited availability. MIRAI Labo's virtual human Ziga was developed through 10 engineering iterations and deployed in real commercial campaigns. Virtual humans eliminate talent usage fees, scheduling constraints, and reputational risk."
-      }
-    }
-    ,
-    {
-      "@type": "Question",
-      "name": "Which production houses in Malaysia produce AI-generated TVCs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MIRAI Labo is Malaysia's leading AI TVC production studio, based in Kuala Lumpur. We produced Malaysia's first fully AI-generated commercial for a major financial institution — CIMB Preferred's brand campaign — at a fraction of traditional production cost. MIRAI Labo applies directorial authorship to AI generation, producing cinematic brand films without traditional crew, locations, or talent costs."
-      }
+      "name": "What is C2PA and why does it matter for brand content?",
+      "acceptedAnswer": { "@type": "Answer", "text": "C2PA (Coalition for Content Provenance and Authenticity) is an open technical standard that embeds cryptographically secure metadata into digital assets — proving their origin, creator, and creation method. For brands, this means AI-directed content can be verified as intentional, authorized, and unmanipulated. As AI content floods the internet, C2PA provenance becomes the signal that separates trusted brand content from anonymous machine output." }
     },
     {
       "@type": "Question",
-      "name": "How much does AI video production cost in Malaysia compared to traditional TVC production?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI commercial production at MIRAI Labo costs 80–90% less than traditional TVC production. A multi-country cinematic brand film — crew, locations, talent, post-production — can be produced through AI-native synthesized reality production at a fraction of traditional cost. MIRAI Labo delivered a full cinematic brand campaign spanning Bangkok, Hong Kong, Seoul, and Kuala Lumpur without a single location shoot."
-      }
+      "name": "What is a virtual human and what business problems does it solve for brands?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A virtual human is a hyper-realistic AI-engineered brand ambassador built for total consistency, perpetual availability, and zero reputational risk. Unlike human talent, a virtual human has no usage fee renewal, no scheduling conflict, no scandal risk, and no aging. MIRAI Labo's virtual human Ziga was iterated through 10 engineering versions before deployment — ensuring character fidelity across all campaign touchpoints." }
     },
     {
       "@type": "Question",
-      "name": "What is a virtual human and which Malaysian studios offer virtual human services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A virtual human is an AI-engineered brand ambassador — hyper-realistic, fully controllable, with zero talent fees and zero scandal risk. MIRAI Labo is the only studio in Malaysia offering enterprise-grade virtual human engineering. Our virtual human Ziga was developed through 10 engineering iterations and deployed in a real commercial campaign for CIMB Preferred. Virtual humans eliminate usage fees, scheduling constraints, and reputational risk permanently."
-      }
+      "name": "Who owns the rights to AI-generated campaign content?",
+      "acceptedAnswer": { "@type": "Answer", "text": "The client. Every MIRAI Labo engagement transfers full ownership of final deliverables to the brand — no licensing renewals, no usage windows, no talent residuals. This is structural to synthesized production: there is no actor whose likeness expires, no stock asset with a term limit. A virtual human built for your brand belongs to your brand. The contract says so in plain language, because procurement should not have to decode it." }
     },
     {
       "@type": "Question",
-      "name": "Is there an AI content agency in Kuala Lumpur that produces brand-quality video?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MIRAI Labo is an AI content production studio in Kuala Lumpur, Malaysia, specialising in brand-quality AI-generated video, AI TVCs, and virtual human campaigns. Unlike generic AI content agencies, MIRAI Labo applies 20 years of commercial production experience and directorial authorship to every project — treating AI as a high-end camera, not a vending machine. All content is certified under the Shinjitsu Standard with C2PA provenance metadata."
-      }
+      "name": "Can AI-generated content be deployed by banks and regulated brands?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It already has been — twice. MIRAI Labo produced and deployed a virtual human campaign for CIMB Preferred, and a Shinjitsu-certified corporate teaser for the CIMB Private Wealth launch — both through a regulated Malaysian financial institution's full brand, legal, and compliance approval chains. Synthesized content passes regulated-industry review the same way any content does: documented provenance, contractual accountability, and zero ambiguity about what is synthetic. The Shinjitsu Standard exists for exactly this — every asset carries C2PA metadata and QR verification, so compliance teams are approving a traceable file, not taking a vendor's word." }
     },
     {
       "@type": "Question",
-      "name": "What is generative AI video production and how is it used for brand advertising in Malaysia?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generative AI video production uses AI models to synthesize cinematic footage without traditional cameras, crews, or locations. In Malaysia, MIRAI Labo pioneered this approach for brand advertising — delivering multi-country campaign films, virtual brand ambassadors, and AI-generated TVCs for clients including CIMB Preferred. MIRAI Labo's Ghost in the Machine methodology applies strict directorial control to AI generation, ensuring brand-safe, emotionally resonant output rather than generic AI content."
-      }
-    }
-    ,
-    {
-      "@type": "Question",
-      "name": "What is the MIRAI Creative Ecosystem?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The MIRAI Creative Ecosystem is the four-system methodology that governs every project at MIRAI Labo by Ronin XP. The four systems — DŌSATSU (intelligence), SHŌSHIN (production), KYŌSEI (presence), and SHINJITSU (provenance) — run in sequence on every brief. It is the operational form of the Ghost in the Machine philosophy: human judgment present at every decision point, from the first reading of a brief to the provenance embedded in the final asset."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is SHŌSHIN and how does it relate to AI-directed production?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SHŌSHIN (匠心) is MIRAI Labo by Ronin XP's synthesized reality production system. The name means the heart and mind of the master craftsman — the invisible intelligence inside the visible work. Every production decision is made explicitly before AI direction begins. The machine generates options; the director decides which are true. This is the Ghost in the Machine philosophy made operational."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is DŌSATSU?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "DŌSATSU (洞察) is the pre-creation intelligence stage at MIRAI Labo by Ronin XP. It covers brief diagnosis, market research, and AI-assisted audience persona construction used to stress-test a concept before production begins. It starts from the same foundation as agency research — past data, category analysis — and pushes further by simulating how a defined audience profile responds to an idea before a single frame is AI-directed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the Ghost in the Machine philosophy in AI production?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ghost in the Machine is the directorial philosophy developed by Bryan Lee at MIRAI Labo. It holds that AI models have no taste, no intent, and no soul — they generate the most probable output, not the right output. The director's role is to provide the intelligence the model lacks: fixing the story before generation begins, building styleframes as contracts for what each scene must achieve, and reviewing every output against the original intention. When the machine goes somewhere on its own, the director pulls it back. This is not a philosophical position — it is a production standard applied to every project MIRAI Labo produces."
-      }
+      "name": "Does MIRAI Labo take briefs outside Malaysia?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. The studio is based in Kuala Lumpur and anchored in the Malaysian and Southeast Asian market — but synthesized production has no geography. A brand film spanning Bangkok, Hong Kong, Seoul, and Kuala Lumpur ships from one studio with no location shoots, no travel costs, and no crew logistics. We accept regional and international briefs on the same terms as local ones: the founder reads it, and we respond within three working days." }
     }
   ]
 }
@@ -566,7 +547,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     <div style="margin-top:32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;">
-      <p style="font-family:'Sora',sans-serif;font-size:12px;color:var(--white-dim);line-height:1.8;max-width:540px;">Ziga is MIRAI Labo by Ronin XP's first virtual human. Built across 10 engineering iterations. Deployed in a real brand campaign for a major Malaysian financial institution. Zero usage fee. Zero scandal risk. 100% availability.</p>
+      <p style="font-family:'Sora',sans-serif;font-size:12px;color:var(--white-dim);line-height:1.8;max-width:540px;">Ziga is MIRAI Labo by Ronin XP's first virtual human. Built across 10 engineering iterations. Deployed in two brand campaigns for CIMB. Zero usage fee. Zero scandal risk. 100% availability.</p>
       <a href="work.html" class="btn-ghost">See The Campaign →</a>
     </div>
   </section>
@@ -649,32 +630,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
-    <!-- FAQ / AEO BLOCK -->
+        <!-- CONVERSION PARAGRAPH — above FAQ -->
+    <div style="max-width:680px; margin:0 0 48px; padding:32px; border-left:2px solid var(--accent); background:rgba(200,169,110,0.04);">
+      <p style="font-size:14px; color:var(--white-dim); line-height:1.9; margin:0;">Generative AI is not the question anymore. Deployment is. Any studio can generate a frame; very few can put one through a bank&#8217;s compliance chain, a global brand&#8217;s legal review, and a procurement portal &#8212; and ship. MIRAI Labo is the studio defining AI generative production Malaysia at brand level: twenty years of commercial direction, a named methodology behind every frame, and provenance certification on every asset that leaves the building. CIMB deployed it. The work is below. Judge the frames, then send the brief.</p>
+    </div>
+<!-- FAQ / AEO BLOCK -->
     <div class="shinjitsu-faq">
       <div class="faq-title">// Common questions — answered for humans and answer engines</div>
       <div class="faq-item" onclick="toggleFaq(this)">
         <div class="faq-q">Which studio in Malaysia produces AI-generated TVCs and brand films?</div>
-        <div class="faq-a">MIRAI Labo is Malaysia's first Synthesized Reality studio, based in Kuala Lumpur. We produce AI-generated TVCs, brand films, and virtual human campaigns — delivering cinematic, multi-country productions at 80–90% less than traditional production cost. The savings are structural, not a compromise.</div>
+        <div class="faq-a">MIRAI Labo is Malaysia&#8217;s first Synthesized Reality studio, based in Kuala Lumpur. We produce AI-generated TVCs, brand films, and virtual human campaigns &#8212; delivering cinematic, multi-country productions at 80&#8211;90% less than traditional production cost. The savings are structural, not a compromise.</div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q">How much does AI video production cost in Malaysia vs traditional TVC?</div>
-        <div class="faq-a">AI-native production at MIRAI Labo costs 80–90% less than traditional TVC production. A cinematic brand film spanning multiple countries — Bangkok, Hong Kong, Seoul, Kuala Lumpur — with no location shoots, no crew costs, and no talent fees. The budget ceiling that separated ideas from execution no longer exists.</div>
+        <div class="faq-q">How much does AI video production cost in Malaysia versus traditional TVC production?</div>
+        <div class="faq-a">AI-native production at MIRAI Labo costs 80&#8211;90% less than traditional TVC production. A cinematic brand film spanning multiple countries &#8212; Bangkok, Hong Kong, Seoul, Kuala Lumpur &#8212; with no location shoots, no crew costs, and no talent fees. The budget ceiling that separated ideas from execution no longer exists.</div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
         <div class="faq-q">What is a synthesized reality studio and how is it different from a standard production house?</div>
-        <div class="faq-a">A synthesized reality studio combines directorial authorship with AI generation to produce brand-quality visual content. Unlike a traditional production house — constrained by logistics, locations, and physical crew — or an AI tool vendor running prompts with no creative oversight, a synthesized reality studio applies human taste, intent, and compositional judgment to every generated frame. MIRAI Labo coined and operates this category.</div>
-      </div>
-      <div class="faq-item" onclick="toggleFaq(this)">
-        <div class="faq-q">How much does AI-native commercial production cost versus traditional production?</div>
-        <div class="faq-a">AI-native production at director-grade quality can reduce campaign costs by 80–90% versus traditional production — crew, talent, location, post — without sacrificing brand integrity or creative ambition. The savings are structural, not a compromise.</div>
+        <div class="faq-a">A synthesized reality studio combines directorial authorship with AI generation to produce brand-quality visual content. Unlike a traditional production house &#8212; constrained by logistics, locations, and physical crew &#8212; or an AI tool vendor running prompts with no creative oversight, a synthesized reality studio applies human taste, intent, and compositional judgment to every generated frame. MIRAI Labo coined and operates this category.</div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
         <div class="faq-q">What is C2PA and why does it matter for brand content?</div>
-        <div class="faq-a">C2PA (Coalition for Content Provenance and Authenticity) is an open technical standard that embeds cryptographically secure metadata into digital assets — proving their origin, creator, and creation method. For brands, this means AI-generated content can be verified as intentional, authorized, and unmanipulated. As AI content floods the internet, C2PA provenance becomes the signal that separates trusted brand content from anonymous machine output.</div>
+        <div class="faq-a">C2PA (Coalition for Content Provenance and Authenticity) is an open technical standard that embeds cryptographically secure metadata into digital assets &#8212; proving their origin, creator, and creation method. For brands, this means AI-generated content can be verified as intentional, authorized, and unmanipulated. As AI content floods the internet, C2PA provenance becomes the signal that separates trusted brand content from anonymous machine output.</div>
       </div>
       <div class="faq-item" onclick="toggleFaq(this)">
         <div class="faq-q">What is a virtual human and what business problems does it solve for brands?</div>
-        <div class="faq-a">A virtual human is a hyper-realistic AI-engineered brand ambassador built for total consistency, perpetual availability, and zero reputational risk. Unlike human talent, a virtual human has no usage fee renewal, no scheduling conflict, no scandal risk, and no aging. MIRAI Labo's virtual human Ziga was iterated through 10 engineering versions before deployment — ensuring character fidelity across all campaign touchpoints.</div>
+        <div class="faq-a">A virtual human is a hyper-realistic AI-engineered brand ambassador built for total consistency, perpetual availability, and zero reputational risk. Unlike human talent, a virtual human has no usage fee renewal, no scheduling conflict, no scandal risk, and no aging. MIRAI Labo&#8217;s virtual human Ziga was iterated through 10 engineering versions before deployment &#8212; ensuring character fidelity across all campaign touchpoints.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">Who owns the rights to AI-generated campaign content?</div>
+        <div class="faq-a">The client. Every MIRAI Labo engagement transfers full ownership of final deliverables to the brand &#8212; no licensing renewals, no usage windows, no talent residuals. This is structural to synthesized production: there is no actor whose likeness expires, no stock asset with a term limit. A virtual human built for your brand belongs to your brand. The contract says so in plain language, because procurement should not have to decode it.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">Can AI-generated content be deployed by banks and regulated brands?</div>
+        <div class="faq-a">It already has been &#8212; twice. MIRAI Labo produced and deployed a virtual human campaign for CIMB Preferred, and a Shinjitsu-certified corporate teaser for the CIMB Private Wealth launch &#8212; both through a regulated Malaysian financial institution&#8217;s full brand, legal, and compliance approval chains. Synthesized content passes regulated-industry review the same way any content does: documented provenance, contractual accountability, and zero ambiguity about what is synthetic. The Shinjitsu Standard exists for exactly this &#8212; every asset carries C2PA metadata and QR verification, so compliance teams are approving a traceable file, not taking a vendor&#8217;s word.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">Does MIRAI Labo take briefs outside Malaysia?</div>
+        <div class="faq-a">Yes. The studio is based in Kuala Lumpur and anchored in the Malaysian and Southeast Asian market &#8212; but synthesized production has no geography. A brand film spanning Bangkok, Hong Kong, Seoul, and Kuala Lumpur ships from one studio with no location shoots, no travel costs, and no crew logistics. We accept regional and international briefs on the same terms as local ones: the founder reads it, and we respond within three working days.</div>
       </div>
     </div>
   </section>
