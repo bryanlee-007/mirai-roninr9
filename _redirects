@@ -1,0 +1,20 @@
+# Netlify redirects — roninr9.net
+# Registry anchor → per-entry pages (Tier 3)
+/shinjitsu/SHN-2026-008    /shinjitsu/SHN-2026-008.html    200
+/shinjitsu/SHN-2026-007    /shinjitsu/SHN-2026-007.html    200
+/shinjitsu/SHN-2026-006    /shinjitsu/SHN-2026-006.html    200
+/shinjitsu/SHN-2026-005    /shinjitsu/SHN-2026-005.html    200
+/shinjitsu/SHN-2026-004    /shinjitsu/SHN-2026-004.html    200
+/shinjitsu/SHN-2025-003    /shinjitsu/SHN-2025-003.html    200
+/shinjitsu/SHN-2025-002    /shinjitsu/SHN-2025-002.html    200
+/shinjitsu/SHN-2025-001    /shinjitsu/SHN-2025-001.html    200
+
+# Clean-URL convenience (extensionless → .html)
+/work        /work.html        301
+/shinjitsu   /shinjitsu.html   301
+/log         /log.html         301
+/about       /about.html       301
+/brief       /brief.html       301
+
+# 404 fallback
+/*    /404.html    404
