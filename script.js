@@ -200,7 +200,7 @@
     grid.innerHTML = videos.map(v => {
       const hasReal = !v.id.startsWith('placeholder');
       const thumb = hasReal
-        ? '<img src="https://img.youtube.com/vi/' + v.id + '/mqdefault.jpg" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">'
+        ? '<img src="https://img.youtube.com/vi/' + v.id + '/mqdefault.jpg" loading="lazy" alt="' + v.title + ' — MIRAI Labo" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">'
         : '<div style="width:100%;height:100%;background:var(--deep);display:flex;align-items:center;justify-content:center;position:absolute;inset:0;"><span style="font-family:var(--display);font-size:11px;letter-spacing:0.2em;color:var(--white-ghost);text-transform:uppercase;">Coming Soon</span></div>';
       return '<div class="video-card" onclick="' + (hasReal ? 'openVideo(\'' + v.id + '\')' : '') + '">'
         + '<div class="video-thumb">'
