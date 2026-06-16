@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://roninr9.net/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/"/>
+  </url>
+
+  <url>
+    <loc>https://roninr9.net/work.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://roninr9.net/shinjitsu.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://roninr9.net/log.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://roninr9.net/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://roninr9.net/brief.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Shinjitsu Registry — individual entries -->
+  <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2026-008.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2026-007.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2026-006.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2026-005.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2026-004.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2025-003.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2025-002.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2025-001.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- /zh scaffold -->
+  <url>
+    <loc>https://roninr9.net/zh/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/"/>
+  </url>
+
+</urlset>
