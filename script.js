@@ -128,6 +128,7 @@
 
   // ── VIDEOS DATA ──
   const videos = [
+    { id: 'GV-wHEVlobY', title: '鍾馗令 執 — Zhōng Kuí Lìng', category: 'AI Short Film · Mythology' },
     { id: 'F2vwpBpWXA4', title: 'Showreel 2025', category: 'MIRAI Labo · Synthesized Reality' },
     { id: '4CAev5-y6dc', title: 'Two Journey, One World', category: 'CIMB Preferred · AI Brand Campaign' },
     { id: '8biXYYhCcLk', title: "No Man's Land", category: 'Cassandra Cain · Character Study' },
