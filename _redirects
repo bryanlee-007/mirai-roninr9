@@ -1,5 +1,6 @@
 # Netlify redirects — roninr9.net
 # Registry anchor → per-entry pages (Tier 3)
+/shinjitsu/SHN-2026-009    /shinjitsu/SHN-2026-009.html    200
 /shinjitsu/SHN-2026-008    /shinjitsu/SHN-2026-008.html    200
 /shinjitsu/SHN-2026-007    /shinjitsu/SHN-2026-007.html    200
 /shinjitsu/SHN-2026-006    /shinjitsu/SHN-2026-006.html    200

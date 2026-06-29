@@ -49,6 +49,11 @@
 
   <!-- Shinjitsu Registry — individual entries -->
   <url>
+    <loc>https://roninr9.net/shinjitsu/SHN-2026-009.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://roninr9.net/shinjitsu/SHN-2026-008.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
