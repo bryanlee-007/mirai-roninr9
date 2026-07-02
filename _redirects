@@ -10,6 +10,12 @@
 /shinjitsu/SHN-2025-002    /shinjitsu/SHN-2025-002.html    200
 /shinjitsu/SHN-2025-001    /shinjitsu/SHN-2025-001.html    200
 
+# Service pillars (clean URLs)
+/services/brand-intelligence        /services/brand-intelligence.html        200
+/services/ai-commercial-production  /services/ai-commercial-production.html  200
+/services/virtual-humans            /services/virtual-humans.html            200
+/services/content-provenance        /services/content-provenance.html        200
+
 # Clean-URL convenience (extensionless → .html)
 /work        /work.html        301
 /shinjitsu   /shinjitsu.html   301
