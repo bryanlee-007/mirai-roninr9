@@ -21,11 +21,17 @@
     <loc>https://roninr9.net/services/brand-intelligence.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/services/brand-intelligence.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/services/brand-intelligence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/services/brand-intelligence.html"/>
   </url>
   <url>
     <loc>https://roninr9.net/services/ai-commercial-production.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/services/ai-commercial-production.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/services/ai-commercial-production.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/services/ai-commercial-production.html"/>
   </url>
   <url>
     <loc>https://roninr9.net/services/virtual-humans.html</loc>
@@ -60,6 +66,9 @@
     <loc>https://roninr9.net/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/about.html"/>
   </url>
 
   <url>
@@ -115,14 +124,38 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- /zh scaffold -->
+  <!-- /zh — zh-Hans release 1 (home, about, pillars 1-2) -->
   <url>
     <loc>https://roninr9.net/zh/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/"/>
+  </url>
+  <url>
+    <loc>https://roninr9.net/zh/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/about.html"/>
+  </url>
+  <url>
+    <loc>https://roninr9.net/zh/services/brand-intelligence.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/services/brand-intelligence.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/services/brand-intelligence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/services/brand-intelligence.html"/>
+  </url>
+  <url>
+    <loc>https://roninr9.net/zh/services/ai-commercial-production.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://roninr9.net/services/ai-commercial-production.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://roninr9.net/zh/services/ai-commercial-production.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://roninr9.net/services/ai-commercial-production.html"/>
   </url>
 
 </urlset>

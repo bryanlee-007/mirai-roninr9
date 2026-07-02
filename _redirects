@@ -16,6 +16,11 @@
 /services/virtual-humans            /services/virtual-humans.html            200
 /services/content-provenance        /services/content-provenance.html        200
 
+# zh-Hans (clean URLs)
+/zh/about                              /zh/about.html                              200
+/zh/services/brand-intelligence        /zh/services/brand-intelligence.html        200
+/zh/services/ai-commercial-production  /zh/services/ai-commercial-production.html  200
+
 # Clean-URL convenience (extensionless → .html)
 /work        /work.html        301
 /shinjitsu   /shinjitsu.html   301
